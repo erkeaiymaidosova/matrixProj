@@ -1,1 +1,14 @@
 import.java.util
+import java.util.Random;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random num = new Random();
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Meanings of signs:");
+        System.out.println("•-miss");
+        System.out.println("*-hit");
+        System.out.println("x-sunk");
+    }
+}
